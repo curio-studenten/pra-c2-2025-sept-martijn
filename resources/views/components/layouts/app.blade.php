@@ -37,13 +37,7 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <x-footer />
-            </div>
-        </div>
-    </div>
+    <x-footer />
 
     <!-- Bootstrap core JavaScript
 ================================================== -->
