@@ -20,8 +20,8 @@
     ?>
 
     <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
+            <!-- Example row of columns -->
+            <div class="row">
 
             @foreach($brands->chunk($chunk_size) as $chunk)
                 <div class="col-md-4">
@@ -52,7 +52,7 @@
                 ?>
             @endforeach
 
-        </div>
+            </div>
 
-    </div>
+        </div>
 </x-layouts.app>
