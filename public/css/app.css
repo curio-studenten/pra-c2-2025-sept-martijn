@@ -10020,3 +10020,31 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ccc;
     content: "/ ";
 }
+
+.site-footer .footer-top .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.site-footer .footer-top .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 768px) {
+    .site-footer .footer-top .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.site-footer .footer-top .col-6, .site-footer .footer-top .col-md-4 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.site-footer .footer-top h5 {
+    margin-bottom: 0.5rem;
+}
+
