@@ -10093,38 +10093,6 @@ a.text-dark:hover, a.text-dark:focus {
     content: "/ ";
 }
 
-.alphabet-nav .d-flex {
-    gap: 0.35rem;
-}
-.alphabet-nav .d-flex a {
-    color: var(--dark);
-    background: #fff;
-    border-radius: 0.25rem;
-    border: 1px solid rgba(0,0,0,0.06);
-    display: inline-block;
-    padding: 0.25rem 0.5rem;
-    font-weight: 600;
-    transition: all 0.15s ease-in-out;
-}
-.alphabet-nav .d-flex a:hover,
-.alphabet-nav .d-flex a:focus {
-    color: #fff;
-    background: var(--primary);
-    text-decoration: none;
-}
-.alphabet-nav .d-flex a:active {
-    transform: translateY(1px);
-}
-
-h2:target {
-    background: var(--primary);
-    color: #fff;
-    display: inline-block;
-    padding: 0.1rem 0.45rem;
-    border-radius: 0.25rem;
-}
-
-
 .site-footer .footer-top .row {
     display: flex;
     flex-wrap: wrap;
