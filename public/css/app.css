@@ -10092,3 +10092,63 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ccc;
     content: "/ ";
 }
+
+.alphabet-nav .d-flex {
+    gap: 0.35rem;
+}
+.alphabet-nav .d-flex a {
+    color: var(--dark);
+    background: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0,0,0,0.06);
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+}
+.alphabet-nav .d-flex a:hover,
+.alphabet-nav .d-flex a:focus {
+    color: #fff;
+    background: var(--primary);
+    text-decoration: none;
+}
+.alphabet-nav .d-flex a:active {
+    transform: translateY(1px);
+}
+
+h2:target {
+    background: var(--primary);
+    color: #fff;
+    display: inline-block;
+    padding: 0.1rem 0.45rem;
+    border-radius: 0.25rem;
+}
+
+
+.site-footer .footer-top .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.site-footer .footer-top .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 768px) {
+    .site-footer .footer-top .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.site-footer .footer-top .col-6, .site-footer .footer-top .col-md-4 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.site-footer .footer-top h5 {
+    margin-bottom: 0.5rem;
+}
+

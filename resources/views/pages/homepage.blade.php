@@ -12,6 +12,16 @@
         </x-slot:title>
     </h1>
 
+    <nav class="alphabet-nav mb-3" aria-label="Alphabet navigation">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center">
+                @foreach(range('A', 'Z') as $letter)
+                    <a class="mx-1 px-2 py-1" href="#letter-{{ $letter }}">{{ $letter }}</a>
+                @endforeach
+            </div>
+        </div>
+    </nav>
+
 
     <?php
     $size = count($brands);
@@ -34,8 +44,8 @@
 
                             if (!isset($header_first_letter) || (isset($header_first_letter) && $current_first_letter != $header_first_letter)) {
                                 echo '</ul>
-						<h2>' . $current_first_letter . '</h2>
-						<ul>';
+                        <h2 id="letter-' . $current_first_letter . '">' . $current_first_letter . '</h2>
+                        <ul>';
                             }
                             $header_first_letter = $current_first_letter
                             ?>
